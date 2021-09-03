@@ -6,8 +6,8 @@ Sun-MicroSystem -> Oracle
 
 /*
 JVM - Java Virtual Machine 
-JRE - Java Runtime Environment
-JDK - Java Development Kit
+JRE - Java Runtime Environment - provides the runtime environment for the code
+JDK - Java Development Kit - its a kit, contains other libraries
 
 C/C++ Programs -> directly interact with OS
 Java Programs-> intracts with JVM
