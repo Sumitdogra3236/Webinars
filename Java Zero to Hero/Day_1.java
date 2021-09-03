@@ -24,6 +24,7 @@ Provide JRE
 Execute the code
 
 
+In Java, JVM calls the main function
 */
 
 
@@ -52,6 +53,7 @@ Class doesn't take space, object take space
 class Test {
     
         int x; // instance variable or object variable
+        static int y;
         void show() { // method -> function defined inside a class
             System.out.println("Hello from Class Test");
         }
@@ -60,10 +62,12 @@ class Test {
 
 class TestDrive {
     public static void main(String[] args) {
-        Test ob = new Test();
-        ob.x = 20;
-        System.out.println("Data: " +ob.x );
-        ob.show();
+        Test ob1 = new Test();
+        Test ob2 = new Test();
+        ob1.x = 20;
+        ob2.x = 40;
+        System.out.println("Data: " +ob1.x + ", " + ob2.x  );
+        ob2.show();
     }
 
 }

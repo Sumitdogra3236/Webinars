@@ -1,0 +1,3 @@
+Interpreter -> It translates the code instruction by instruction, Its execution is slower, Its compile time is less.
+
+Compiler -> It translates the entire program at once, Its execution is faster, It takes more time to compile the code.
