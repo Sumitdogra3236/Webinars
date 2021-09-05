@@ -10,6 +10,7 @@ Mini Project - Cab(Uber) Fare Calculation
 /*
 PrintStream class - present in java.io package
 print() & println() are members of PrintStream class.
+To see the method / member of package -> javap package_name eg. javap java.io.PrintStream,  javap java.lang.System
 
 We need object of PrintStream to access print() or println()
 "out" is object of PrintStream which is present in System class.
