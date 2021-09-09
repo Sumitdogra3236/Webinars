@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To Do List</title>
+        <style>
+
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+
+            .container{
+                padding: 50px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            button {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                width: 30%;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                font-size: 20px;
+                text-transform: uppercase;
+
+            }
+
+            input{
+                width: 50%;
+                height: 50px;
+                text-indent: 20px;
+                font-size: 20px;
+                border-radius: 10px;
+                outline: none;
+                border: 1px solid gray;
+            }
+           
+            .two{
+                padding-top: 50px;
+                padding-bottom: 50px;
+                width: 400px;
+                /* background-color: gray; */
+                
+            }
+
+            .todo{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                text-indent: 20px;
+                margin: 10px;
+                font-size: 25px;
+                font-weight: normal;
+                font-family: segoe UI;
+                box-shadow: 0 0 2px gray;
+                border-radius: 10px;
+                
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- <h1 id="one">
+            Letsupgrade
+        </h1> -->
+         <!-- <button onclick="putText()">Get Text</button>
+        <br> -->
+
+        <div class="container">
+
+            <input type="text" placeholder="Task..." id="inp" />
+            <button onclick="addTask()">Add To List</button>
+            <button onclick="changeColor()">Change Color</button>
+
+            <div id="two" class="two">
+
+            </div>
+
+
+
+           
+        </div>
+
+
+        <!-- <button onclick="demo()">Click Me</button> -->
+
+        <script src="index.js"></script>
+    </body>
+</html>
