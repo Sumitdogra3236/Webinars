@@ -9,9 +9,16 @@
 # b = a;
 # c = 257;  ....... a, b share the same address, but c will have the different address 
 
-a = 6
+# a = 6
+# b = a;
+# c = 6
+# print(id(a)); ----> 2572345436624
+# print(id(b)); ----> 2572345436624
+# print(id(c)); ----> 2572345436624
+
+a = 400;
 b = a;
-# print(a);
-# print(b);
-id(a);
-id(b);
+c = 400;
+print(id(a));   #-------> 2884405803312
+print(id(b));   #-------> 2884405803312
+print(id(c));   #-------> 2884405803088
