@@ -22,3 +22,10 @@ c = 400;
 print(id(a));   #-------> 2884405803312
 print(id(b));   #-------> 2884405803312
 print(id(c));   #-------> 2884405803088
+
+# Operator 
+# and Operator -> if and operator gets the first condition false , it will never check the second condition, and return false
+
+print(10 > 5 and 3 < 4); # ----> True
+print(10 > 5 and 3 < Sumit) # ----> Error -> name 'Sumit' is not defined 
+print(10 < 5 and 3 < Sumit) # ----> False 
