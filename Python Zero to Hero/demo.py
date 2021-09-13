@@ -29,3 +29,7 @@ print(id(c));   #-------> 2884405803088
 print(10 > 5 and 3 < 4); # ----> True
 print(10 > 5 and 3 < Sumit) # ----> Error -> name 'Sumit' is not defined 
 print(10 < 5 and 3 < Sumit) # ----> False 
+
+# or Operator -> if one of the expresion is True gives true 
+print(10 > 20 or 5 > Sumit) # ----> Error -> name 'Sumit' is not defined
+print(20 > 10 or 5 > Sumit) # ----> True
